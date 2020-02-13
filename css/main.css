@@ -26,12 +26,51 @@ html {
   width: 100%;
 }
 
-li, a {
+.section-dark {
+  background-color: #e2e2e2;
+}
+
+a {
   font-family: sans-serif;
+  color: #0074d9;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.nav a {
+  display: block;
+  text-decoration: none;
+}
+
+.masthead{
+  text-align: center;
 }
 
 header {
   display: flex;
   justify-content: space-between;
+
+}
+
+
+@media only screen and (min-width: 25em) {
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .masthead {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 60em) {
 
 }
